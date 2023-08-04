@@ -53,7 +53,7 @@ const LoginForm: React.FunctionComponent<ILoginFormProps> = (props) => {
     if (res.error) {
       return toast.error(res.error);
     } else {
-      return router.push("/home");
+      return router.push("/");
     }
 
   };

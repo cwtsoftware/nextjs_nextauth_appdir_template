@@ -87,8 +87,8 @@ const SideMenu: React.FunctionComponent<ISideMenuProps> = (props) => {
           </button>
           
           <div className='pl-8'>
-            <Link href={"/home"} className={`
-            ${pathname.endsWith('/home') ? ("border-r-8 border-r-navBarFocus text-nav-focus") : ("border-none")}
+            <Link href={"/"} className={`
+            ${pathname.endsWith('/') ? ("border-r-8 border-r-navBarFocus text-nav-focus") : ("border-none")}
             flex flex-row items-center gap-4 ml-0.5 py-0.5 hover:border-solid hover:border-r-8 hover:border-r-nav-focus
             `} onClick={e => setOpen(false)}>
               <div className='py-0.5'>
